@@ -79,22 +79,5 @@ public class Employee {
 		return false;
 	}
 	
-	public boolean validateEmail(String email){
-		/*
-		 * Validates if email contains
-		 * @ symbol 
-		 * endsWith .com
-		 * contains numerals n alphabets
-		 */
-		
-		String pattern = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
-		+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
-
-		if(null != email){
-					if(email.matches(pattern)){
-							return true;
-					}					
-		}
-		return false;
-	}
+	
 }

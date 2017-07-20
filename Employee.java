@@ -5,7 +5,7 @@ public class Employee {
 	private String userName;
 	private String passWord;
 	private String email;
-	private String dob1;
+	private String dob2;
 	private String contactNumber;
 	
 	private int max_len = 20;
@@ -88,7 +88,7 @@ public class Employee {
 		 */
 		
 		String pattern = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
-		+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+		+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})${.8}";
 
 		if(null != email){
 					if(email.matches(pattern)){

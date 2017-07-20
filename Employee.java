@@ -5,7 +5,7 @@ public class Employee {
 	private String userName;
 	private String passWord;
 	private String email;
-	private String dob;
+	private String dateOfBirth;
 	private String contactNumber;
 	
 	private int max_len = 20;
@@ -30,10 +30,10 @@ public class Employee {
 		this.email = email;
 	}
 	public String getDob() {
-		return dob;
+		return dateOfBirth;
 	}
 	public void setDob(String dob) {
-		this.dob = dob;
+		this.dateOfBirth = dob;
 	}
 	public String getContactNumber() {
 		return contactNumber;

@@ -1,11 +1,11 @@
-package com.bean;
+1package com.bean;
 
 public class Employee {
 	
 	private String userName;
 	private String passWord;
 	private String email;
-	private String dob;
+	private String dob1;
 	private String contactNumber;
 	
 	private int max_len = 20;
